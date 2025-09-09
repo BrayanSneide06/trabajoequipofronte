@@ -63,10 +63,9 @@
        class="absolute right-6 top-full bg-white border border-gray-200 py-4 text-gray-800 space-y-3 shadow-lg rounded-lg min-w-[200px]">
     <a href="{{ route('categories.index') }}" class="block hover:text-white hover:bg-[#D2691E] transition rounded px-2 py-1">Categorías</a>
     <a href="{{ route('carts.index')  }}" class="block hover:text-white hover:bg-[#D2691E] transition rounded px-2 py-1">Carritos</a>
-    <a href="{{ url('/contact') }}" class="block hover:text-white hover:bg-[#D2691E] transition rounded px-2 py-1">Productos en Carrito</a>
     <a href="{{ route('channels.index') }}" class="block hover:text-white hover:bg-[#D2691E] transition rounded px-2 py-1">Canales</a>
-    <a href="{{ url('/account') }}" class="block hover:text-white hover:bg-[#D2691E] transition rounded px-2 py-1">Ubicaciones</a>
-    <a href="{{ url('/account') }}" class="block hover:text-white hover:bg-[#D2691E] transition rounded px-2 py-1">Notificaciones</a>
+    <a href="{{ route('locations.index') }}" class="block hover:text-white hover:bg-[#D2691E] transition rounded px-2 py-1">Ubicaciones</a>
+    <a href="{{ route('notifications.index') }}" class="block hover:text-white hover:bg-[#D2691E] transition rounded px-2 py-1">Notificaciones</a>
 
   </div>
 
