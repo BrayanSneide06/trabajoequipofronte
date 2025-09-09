@@ -4,6 +4,8 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ChannelController;
+use App\Http\Controllers\LocationFrontController;
+use App\Http\Controllers\NotificationController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Request;
@@ -69,9 +71,11 @@ Route::get('/carts', [CartController::class, 'index'])->name('carts.index');
 Route::get('/products/search', [ProductController::class, 'search'])->name('products.search');
 
 
-
 Route::get('/channels', [ChannelController::class, 'index'])->name('channels.index');
 
 
+Route::get('/notifications', [NotificationController::class, 'index'])->name('notifications.index');
 
 
+
+Route::get('/locations', [LocationFrontController::class, 'index'])->name('locations.index');
