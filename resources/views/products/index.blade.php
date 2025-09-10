@@ -2,7 +2,7 @@
 @section('title', 'Productos')
 
 @php
-    $defaultImages = [asset('images/img1.jpg'), asset('images/img2.jpg'), asset('images/img3.jpg')];
+    $defaultImages = [asset('https://images.pexels.com/photos/1915149/pexels-photo-1915149.jpeg'), asset('https://images.pexels.com/photos/33839051/pexels-photo-33839051.jpeg'), asset('images/img3.jpg')];
 @endphp
 
 @section('content')
